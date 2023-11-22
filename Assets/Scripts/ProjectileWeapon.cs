@@ -38,7 +38,6 @@ public class ProjectileWeapon : WeaponBase
              */
             if (((int)ammo & (int)AmmoType.Fire) == (int)AmmoType.Fire)
             {
-                print("SPEED");
                 rb.AddForce(rb.velocity.normalized * 25,ForceMode.Acceleration);//double force
             }
             if (((int)ammo & (int)AmmoType.Reverse) == (int)AmmoType.Reverse)

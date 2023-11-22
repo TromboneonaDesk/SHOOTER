@@ -571,9 +571,8 @@ MonoBehaviour:
   - {fileID: 530281704}
   - {fileID: 1776517747}
   - {fileID: 1231506634}
-  ammunition: 
   curWeapon: {fileID: 0}
-  curAmmo: -1
+  curAmmo: 0
 --- !u!114 &1231506634 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8476468529578459528, guid: 5e656ba3ac4148148aaa221c37d7413e, type: 3}

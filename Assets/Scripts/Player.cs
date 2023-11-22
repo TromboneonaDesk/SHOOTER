@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     public void SwitchWeapon(int wIndex)
     {
         curWeapon = arsenal[wIndex];
+        curWeapon.SwitchAmmo(curAmmo);
     }
 
     public void SwitchAmmo(int aIndex)
